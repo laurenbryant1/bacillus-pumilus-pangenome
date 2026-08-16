@@ -1,9 +1,12 @@
 # *Bacillus pumilus* pan-genome and UV-related functions
 
-Comparative genomics of 53 *B. pumilus* genomes.
+Course project for **BIOL 469 (Genomics)** at the University of Waterloo, Fall 2025.
+Group members: Lauren Bryant, Mona Rosanally, Ashely Mayuran, and Haresh Rajalogachandran.
 
+Comparative genomics of 53 *B. pumilus* genomes, with two aims:
 1. Characterize accessory and unique orthogroups in *B. pumilus* strains
 2. Quantify UV-related functions in those orthogroups
+To learn more, view the [project presentation](Bryant_Lauren_Bpumilus_pangenome_Presentation.pdf).
 
 ## Pipeline
 
@@ -34,13 +37,3 @@ Raw genomes, Prokka outputs, full OrthoFinder tables, and eggNOG dumps are omitt
 | [`results/functional/COG_matrix_strain_names.tsv`](results/functional/COG_matrix_strain_names.tsv) | COG category counts across genomes |
 | [`results/trees/species_tree.png`](results/trees/species_tree.png) | OrthoFinder species tree |
 | [`Bryant_Lauren_Bpumilus_pangenome_Presentation.pdf`](Bryant_Lauren_Bpumilus_pangenome_Presentation.pdf) | Project presentation |
-
-Scripts were run in the original working directory layout and need those large intermediates to re-execute end-to-end. They are included here as the analysis code, not as a standalone pipeline.
-
-## Software
-
-- Python 3 with `pandas` (`scripts/*.py`)
-- R with `tidyverse` and `readxl` (`scripts/pan_genome_analysis.R`)
-- Prokka (genome annotation)
-- OrthoFinder 2.5.5+galaxy1, run on the Galaxy web server
-- eggNOG-mapper v3.0.0 (eggNOG 7), run on the eggNOG-mapper website
