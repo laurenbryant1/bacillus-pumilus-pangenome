@@ -1,0 +1,82 @@
+{
+  "DNA_Repair": [
+    "dna repair",
+    "uv repair",
+    "nucleotide excision repair",
+    "spore photoproduct lyase",
+    "photolyase",
+    "sos repair",
+    "recombination protein",
+    "dna ligase",
+    "non-homologous end joining",
+    "nhej"
+  ],
+
+  "ROS_Detox": [
+    "oxidative stress",
+    "reactive oxygen species",
+    "h2o2",
+    "hydrogen peroxide",
+    "catalase",
+    "superoxide dismutase",
+    "peroxiredoxin",
+    "thiol peroxidase",
+    "glutathione peroxidase",
+    "thioredoxin",
+    "thioredoxin reductase",
+    "rubrerythrin",
+    "flavodoxin"
+  ],
+
+  "Spore": [
+    "spore",
+    "sporulation",
+    "sporulation protein",
+    "stage i sporulation",
+    "stage ii sporulation",
+    "stage iii sporulation",
+    "stage iv sporulation",
+    "stage v sporulation",
+    "stage vi sporulation",
+    "sasp",
+    "small acid-soluble protein",
+    "spore coat protein",
+    "coat protein",
+    "spore photoproduct",
+    "maturation of the outermost layer of the spore"
+  ],
+
+  "Pigment": [
+    "pigment",
+    "carotenoid",
+    "carotenoid biosynthesis",
+    "phytoene",
+    "lycopene",
+    "laccase",
+    "multicopper oxidase",
+    "phenol oxidase",
+    "melanin"
+  ],
+
+  "PQC": [
+    "chaperone",
+    "heat shock",
+    "heat-shock",
+    "hsp",
+    "dnak",
+    "dnaj",
+    "groel",
+    "groes",
+    "grpe",
+    "trigger factor",
+    "ppiasse",
+    "protein folding",
+    "protein-folding",
+    "msra",
+    "msrb",
+    "lon protease",
+    "clp protease",
+    "ftsH",
+    "degP"
+  ]
+}

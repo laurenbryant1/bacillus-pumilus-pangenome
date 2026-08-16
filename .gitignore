@@ -1,0 +1,19 @@
+# Local / editor junk
+.DS_Store
+.RData
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# Do not add large tool dumps to this repo.
+# Raw genomes, Prokka outputs, OrthoFinder pairwise tables,
+# eggNOG ortholog dumps, and Galaxy zip archives stay on disk
+# outside this curated copy.
+*.zip
+*.faa
+*.fna
+*.gbk
+out.emapper.orthologs
+queries.fasta
+queries.raw
